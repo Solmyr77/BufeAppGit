@@ -1,0 +1,28 @@
+{
+	"name": "bufe-app",
+	"version": "0.0.5",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev --host",
+		"build": "vite build",
+		"preview": "vite preview --host"
+	},
+	"devDependencies": {
+		"@sveltejs/kit": "next",
+		"@vite-pwa/sveltekit": "^0.1.0",
+		"autoprefixer": "^10.4.13",
+		"eslint": "^8.28.0",
+		"postcss": "^8.4.21",
+		"svelte": "^3.44.0",
+		"tailwindcss": "^3.2.4",
+		"vite": "^4.0.0"
+	},
+	"dependencies": {
+		"@sveltejs/adapter-node": "^1.0.0-next.96",
+		"eslint-plugin-svelte3": "^4.0.0",
+		"pocketbase": "^0.8.0-rc3",
+		"swiper": "^8.4.5",
+		"tw-elements": "^1.0.0-alpha13"
+	}
+}

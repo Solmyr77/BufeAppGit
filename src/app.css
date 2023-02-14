@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.topBar {
+    @apply pt-24;
+}
+
+.cardRow {
+    @apply flex flex-row w-screen pt-4 pb-8 justify-evenly;
+}
+
+.navCard {
+    @apply flex flex-col justify-end basis-1/5 shadow-lg rounded-lg transition-shadow opacity-50 hover:scale-102 hover:shadow-xl hover:opacity-100;
+}
+
+.foodCard {
+    @apply bg-gray-200 rounded-md mb-4 border-red-1 border-2 border-dashed shadow-lg transition-all hover:shadow-red-1/50 mx-4 p-2 flex flex-row;
+}
+
+.img {
+    @apply w-20 h-20 rounded-t-md;
+    -webkit-user-drag: none;
+}
+
+@media screen and (max-width: 650px) {
+    .navCard {
+        width: 5rem;
+    }
+}
