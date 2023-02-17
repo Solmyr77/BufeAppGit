@@ -9,7 +9,7 @@
 		"preview": "vite preview --host"
 	},
 	"devDependencies": {
-		"@sveltejs/kit": "next",
+		"@sveltejs/kit": "^1.7.1",
 		"@vite-pwa/sveltekit": "^0.1.0",
 		"autoprefixer": "^10.4.13",
 		"eslint": "^8.28.0",
