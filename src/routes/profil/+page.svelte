@@ -61,8 +61,3 @@ let form;
    </div>
 
 </main>
-
-
-<style lang="postcss">
-
-</style>

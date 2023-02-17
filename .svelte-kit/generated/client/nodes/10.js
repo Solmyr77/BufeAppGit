@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/rendelesek/+page.svelte";
+export { default as component } from "../../../../src/routes/[termek]/+page.svelte";

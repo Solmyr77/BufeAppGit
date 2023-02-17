@@ -15,6 +15,9 @@ module.exports = {
 		colors: {
 			"red-1": "#C31E25",
 			"yellow-1": "#FFBC0F"
+		},
+		opacity: {
+			"60": ".60",
 		}
 	  }
 	},

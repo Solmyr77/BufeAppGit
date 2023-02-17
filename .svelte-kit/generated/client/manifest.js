@@ -16,14 +16,14 @@ export const server_loads = [0];
 
 export const dictionary = {
 	"/": [~2],
-	"/admin": [~4],
-	"/kosar": [~5],
-	"/list": [~6],
-	"/login": [~7],
-	"/profil": [~8],
-	"/register": [~9],
-	"/rendelesek": [~10],
-	"/[termek]": [~3]
+	"/admin": [~3],
+	"/kosar": [~4],
+	"/list": [~5],
+	"/login": [~6],
+	"/profil": [~7],
+	"/register": [~8],
+	"/rendelesek": [~9],
+	"/[termek]": [~10]
 };
 
 export const hooks = {

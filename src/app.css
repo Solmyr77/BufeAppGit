@@ -7,19 +7,33 @@ main {
 }
 
 .topBar {
-    @apply pt-24;
+    @apply pt-4 fixed;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 97%,  rgba(255, 255, 255, 0) 100%)
+}
+
+.topRow {
+    @apply flex flex-row justify-between items-center;
 }
 
 .cardRow {
-    @apply flex flex-row w-screen pt-4 pb-8 justify-evenly;
+    @apply flex flex-row w-screen pt-4 pb-4 justify-evenly;
 }
 
 .navCard {
-    @apply flex flex-col justify-end basis-1/5 shadow-lg rounded-lg transition-shadow opacity-50 hover:scale-102 hover:shadow-xl hover:opacity-100;
+    @apply flex flex-col justify-end basis-1/5 shadow-lg rounded-lg transition-all hover:scale-102 hover:shadow-xl;
+}
+
+.foodCol {
+    @apply flex flex-col w-screen overflow-scroll;
+    padding-top: 16.5rem;
+}
+
+.foodColCart {
+    @apply flex flex-col w-screen overflow-scroll mt-2;
 }
 
 .foodCard {
-    @apply bg-gray-200 rounded-md mb-4 border-red-1 border-2 border-dashed shadow-lg transition-all hover:shadow-red-1/50 mx-4 p-2 flex flex-row;
+    @apply bg-gray-200 rounded-md my-2 border-red-1 border-2 border-dashed shadow-lg transition-all hover:shadow-red-1/50 mx-4 p-2 flex flex-row;
 }
 
 .img {

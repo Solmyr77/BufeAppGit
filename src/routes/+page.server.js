@@ -33,6 +33,7 @@ export async function load({ locals }) {
 	});
 
 	return {
+		'termekek': records,
 		'randomTermek': encodeURI(random[Math.floor(Math.random() * random.length)]),
 		'splash': splash[Math.floor(Math.random() * splash.length)]
 	};
