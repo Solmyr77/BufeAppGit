@@ -7,5 +7,5 @@ node_modules
 .env.*
 !.env.example
 bufe-app
-src/lib/Pocketbase/
+src/lib/Pocketbase/felhasznalonevJelszo.txt
 .vscode
